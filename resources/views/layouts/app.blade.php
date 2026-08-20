@@ -496,26 +496,27 @@
                     Media Kampus & Komunitas Kreatif Universitas Budi Luhur. Menyajikan siaran informasi edukatif, jurnalistik independen, dan hiburan kreasi mahasiswa secara profesional.
                 </p>
                 <div class="social-icons">
-                    <a href="https://youtube.com" target="_blank" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://instagram.com" target="_blank" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://tiktok.com" target="_blank" class="social-btn"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://facebook.com" target="_blank" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://youtube.com/@budiluhurtv?si=oeLDMHr50RLS-E27" target="_blank" rel="noopener noreferrer" class="social-btn" title="YouTube @budiluhurtv"><i class="fa-brands fa-youtube" style="color: #EF4444;"></i></a>
+                    <a href="https://www.instagram.com/bltv_budiluhurtv?igsh=eGhrZDA0N2dham4=" target="_blank" rel="noopener noreferrer" class="social-btn" title="Instagram @bltv_budiluhurtv"><i class="fa-brands fa-instagram" style="color: #EC4899;"></i></a>
+                    <a href="https://www.facebook.com/share/1ZF4nPGJr5/" target="_blank" rel="noopener noreferrer" class="social-btn" title="Facebook"><i class="fa-brands fa-facebook-f" style="color: #3B82F6;"></i></a>
+                    <a href="https://www.tiktok.com/@budiluhurtv" target="_blank" rel="noopener noreferrer" class="social-btn" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>
 
             <div>
-                <h4 class="footer-title">Navigasi Cepat</h4>
+                <h4 class="footer-title"><i class="fa-solid fa-compass" style="color: var(--bl-yellow); margin-right: 6px;"></i> Navigasi Cepat</h4>
                 <ul class="footer-links">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li><a href="{{ route('programs.index') }}">Program TV Kampus</a></li>
                     <li><a href="{{ route('videos.index') }}">Live Streaming & Video</a></li>
                     <li><a href="{{ route('news.index') }}">Berita & Artikel</a></li>
-                    <li><a href="{{ route('teams.index') }}">Gabung Crew BLTV</a></li>
+                    <li><a href="{{ route('teams.index') }}">Our Team & Crew</a></li>
+                    <li><a href="{{ route('contact.index') }}">Hubungi Kami</a></li>
                 </ul>
             </div>
 
             <div>
-                <h4 class="footer-title">Kategori</h4>
+                <h4 class="footer-title"><i class="fa-solid fa-tv" style="color: var(--bl-yellow); margin-right: 6px;"></i> Kategori</h4>
                 <ul class="footer-links">
                     <li><a href="{{ route('programs.index', ['category' => 'jurnalistik-news']) }}">Jurnalistik & News</a></li>
                     <li><a href="{{ route('programs.index', ['category' => 'creative-community']) }}">Creative Community</a></li>
@@ -525,17 +526,21 @@
             </div>
 
             <div>
-                <h4 class="footer-title">Kontak Media Center</h4>
+                <h4 class="footer-title"><i class="fa-solid fa-location-dot" style="color: var(--bl-yellow); margin-right: 6px;"></i> Lokasi & Studio</h4>
+                <a href="https://maps.app.goo.gl/yaFw9h4AGJN2ypiz5" target="_blank" rel="noopener noreferrer" class="footer-contact-item" style="color: inherit; text-decoration: none;">
+                    <i class="fa-solid fa-map-location-dot" style="color: var(--bl-yellow); font-size: 18px; margin-top: 3px;"></i>
+                    <span>
+                        <strong style="color: var(--bl-yellow); display: block;">Studio BLTV UBL</strong>
+                        Jl. Ciledug Raya, Petukangan Utara, Pesanggrahan, Jakarta Selatan 12260
+                        <small style="color: #60A5FA; display: block; margin-top: 2px;">Buka di Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i></small>
+                    </span>
+                </a>
                 <div class="footer-contact-item">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span>Jl. Ciledug Raya, Petukangan Utara, Pesanggrahan, Jakarta Selatan 12260</span>
-                </div>
-                <div class="footer-contact-item">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone" style="color: #38BDF8;"></i>
                     <span>+62 21 5853753</span>
                 </div>
                 <div class="footer-contact-item">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-envelope" style="color: #34D399;"></i>
                     <span>info@budiluhur.tv</span>
                 </div>
             </div>
