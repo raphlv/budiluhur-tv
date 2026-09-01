@@ -19,5 +19,36 @@ Backend CMS and broadcast program scheduling manager for Budi Luhur TV. Manages 
 
 ---
 
+## Key Modules
+
+- Broadcast Rundown Manager: Schedule timeline creator for 24-hour campus television programming.
+- Video Metadata Archive: Upload and manage video tags, thumbnails, descriptions, and categories.
+- Crew and Presenter Roster: Station staff, news anchor, and reporter management.
+- API Endpoints: REST API serving broadcast schedule data to frontend consumers.
+
+---
+
+## Technology Stack
+
+- Backend: Laravel 10 (PHP 8.2)
+- Database: MySQL 8.0
+- Frontend: Blade Templates and Bootstrap 5.3
+
+---
+
+## Getting Started
+
+`ash
+git clone https://github.com/raphlv/budiluhur-tv.git
+cd budiluhur-tv
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+`
+
+---
+
 ## Developer and Maintainer
 Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
