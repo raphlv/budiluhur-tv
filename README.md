@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# ðŸ“¡ Budi Luhur TV â€” Broadcast Management & CMS System
+# Budi Luhur TV â€” Broadcast Management & CMS System
 
 ### *Laravel-Powered Video Archive, Program Schedules, & Live Feed Controller*
 
@@ -13,9 +13,14 @@
 
 </div>
 
-## ðŸ“Œ About The Project
+## About The Project
 
-Backend CMS and broadcast program scheduling manager for **Budi Luhur TV**. Manages video metadata, broadcast rundown schedules, and presenter profiles.
+Backend CMS and broadcast program scheduling manager for Budi Luhur TV. Manages video metadata, broadcast rundown schedules, and presenter profiles.
 
-<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+---
+
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
+
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
 
